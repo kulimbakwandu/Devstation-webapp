@@ -3,7 +3,7 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3.5rem;
+  --header-height: 4.5rem;
 
   /*========== Colors ==========*/
   --hue: 14;
@@ -14,8 +14,9 @@
   --text-color-light: hsl(var(--hue), 4%, 55%);
 
   /*Green gradient*/
-  --body-color: linear-gradient(90deg, hsl(104, 28%, 40%) 0%, hsl(58, 28%, 40%) 100%);
-  --container-color: linear-gradient(136deg, hsl(104, 28%, 35%) 0%, hsl(58, 28%, 35%) 100%);
+  
+  --body-color: linear-gradient(90deg, #1a237e 0%, #1a237e 100%);
+  --container-color: linear-gradient(136deg, #00c4ff 0%, #005eff8f 100%);
   
   /*Red gradient*/
   /* --body-color: linear-gradient(90deg, hsl(360, 28%, 40%) 0%, hsl(18, 28%, 40%) 100%);
@@ -508,7 +509,8 @@ button{
 }
 
 .discount__img{
-  width: 200px;
+  width: 100px;
+  height: 100px;
   justify-self: center;
 }
 
@@ -865,7 +867,7 @@ button{
     border-radius: 3rem;
   }
   .discount__img{
-    width: 350px;
+    width: 100px;
     order: -1;
   }
   .discount__data{
